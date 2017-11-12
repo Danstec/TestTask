@@ -1,0 +1,12 @@
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\AttachmentRetriever.dll
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\AttachmentRetriever.pdb
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\EmailSender.csproj.CoreCompileInputs.cache
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\AttachmentRetriever.dll
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\AttachmentRetriever.pdb
+C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\EmailSender.csprojResolveAssemblyReference.cache
