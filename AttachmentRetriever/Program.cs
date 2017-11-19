@@ -27,6 +27,8 @@ namespace EmailSender
         {
             Entity resultEmailEntity = service.Retrieve("email", TargetEmailRef.Id, new ColumnSet(true));
 
+            //throw new Exception(resultEmailEntity["emailid"].ToString());
+
             //Построение запроса для получения примечаний...
             ConditionExpression noteAttachmentsObjectIdCondition = new ConditionExpression()
             {
@@ -101,25 +103,27 @@ namespace EmailSender
             Entity email = AddAttachmentToEmail(service, ContactEntity.Id, TargetEmail.Get(context), ref isAttachmentExist);
 
             #region Отправка электронного письма
-                SendEmailRequest sendEmail = new SendEmailRequest();
+            SendEmailRequest sendEmail = new SendEmailRequest();
                 sendEmail.EmailId = email.Id;
                 //sendEmail.TrackingToken = "";
                 sendEmail.IssueSend = true;
                 SendEmailResponse res = (SendEmailResponse)service.Execute(sendEmail);
             #endregion
 
-            //Получение Id пользователя, который инициировал процесс
+            //Получение Id и Reference пользователя, который инициировал процесс
             Guid initiatorId = workflowContext.InitiatingUserId;
+            EntityReference initiatiorRef = new EntityReference("systemuser", initiatorId);
 
             //Связывание отправленного письма с вложениями и пользователя
             if (isAttachmentExist)
             {
-                email["stec_user"] = initiatorId;
+                email["stec_user"] = initiatiorRef;
                 service.Update(email);
             }
 
             #region Обновление количества отправленных писем пользователем
             Entity initiator = service.Retrieve("systemuser", initiatorId, new ColumnSet(new string[] { "stec_send_emails_count" }));
+
             if (initiator["stec_send_emails_count"] != null)
             {
                 var count = initiator["stec_send_emails_count"];

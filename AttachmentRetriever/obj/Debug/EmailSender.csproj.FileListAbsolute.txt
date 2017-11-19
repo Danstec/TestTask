@@ -9,4 +9,3 @@ C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\
 C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\EmailSender.csproj.CoreCompileInputs.cache
 C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\AttachmentRetriever.dll
 C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\AttachmentRetriever.pdb
-C:\Users\Данило\Documents\Visual Studio 2017\Projects\AttachmentRetriever\AttachmentRetriever\obj\Debug\EmailSender.csprojResolveAssemblyReference.cache
